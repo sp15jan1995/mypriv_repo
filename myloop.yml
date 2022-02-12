@@ -1,0 +1,12 @@
+---
+ - hosts: all
+   become: yes
+   tasks: 
+   - name: install multi package
+     apt:
+      name: "{{item}}"
+      states: present
+     loop: 
+     - git:
+     - tree:
+     - wget:
