@@ -1,5 +1,5 @@
 ---
-- hosts: mywebservers
+- hosts: myinstall
   become: yes
   tasks: 
   - name: install java on ubuntu nodes
