@@ -1,5 +1,5 @@
 ---
-mywebpackageforubuntu: apache222222
+mywebpackageforubuntu: apache2
 mywebpackageforredhat: httpd
 
 myjavapackageforubuntu: openjdk-8-jre
