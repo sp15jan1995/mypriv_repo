@@ -12,12 +12,12 @@
 
   - name: i want to install git
     apt: 
-     name: git
-     state: present
+      name: git
+      state: present
     when: myresult.stderr==""
 
   - name: i want to install tree
     apt: 
-     name: tree
-     state: present
-    when: myresult.stderr.!=""       
+      name: tree
+      state: present
+    when: myresult.stderr !=""       
