@@ -6,6 +6,6 @@
    myvar2: tree
    myvar3: weget
   task:
-   - name: i want to diaplay my var1
-     debug: 
+  - name: i want to display my var1
+    debug: 
       msg: "{{myvar1}}" 
