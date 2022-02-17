@@ -1,6 +1,7 @@
----- hosts: 
-become: yes 
-tasks:
+---
+- hosts: 
+  become: yes 
+  tasks:
 
 - name: i want to execut linux command
   command: hostname -f
