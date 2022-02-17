@@ -2,7 +2,6 @@
 - hosts: 172.31.38.29
   become: yes 
   tasks:
-
   - name: i want to execute linux command
     command: hostname -f
     regester: myresult
