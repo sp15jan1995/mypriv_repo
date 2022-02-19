@@ -1,5 +1,5 @@
 --- 
-- hosts: 
+- hosts: 172.31.38.29
   become: yes 
   tasks: 
   - name: create file on ansible nodes
