@@ -7,4 +7,9 @@
   - name: i want to install webserver 
     apt: 
       name: apache2 
-      state: present
+      state: present 
+  
+  - name: i want to copy index file into ansible node 
+    template:
+      src: myindex.j2
+      dest: /var/www/html/index.html 
