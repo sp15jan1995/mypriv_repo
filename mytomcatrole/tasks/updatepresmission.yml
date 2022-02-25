@@ -2,6 +2,7 @@
 - name: Give the tomcat group ownership over the entire installation directory 
   file: 
     path: /opt/tomcat 
+    group: tomcat
     state: directory
     recurse: yes 
      
